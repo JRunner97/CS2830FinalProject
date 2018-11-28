@@ -1,14 +1,13 @@
 <?php
-// Created by Professor Wergeles for CS2830 at the University of Missouri
 
     if(!session_start()){
-        header("Location: /CS2830Project/error.php");
+        header("Location: /error.php");
         exit;
     }
 
 	$currentUser = empty($_SESSION['currentUser']) ? false : $_SESSION['currentUser'];
 	if (!$currentUser) {
-		header("Location: /CS2830Project/loginHandler.php");
+		header("Location: /loginHandler.php");
 		exit;
 	}
 ?>
@@ -67,21 +66,21 @@
         <div id="pageContent">
             <div class="carousel-container">
                 <div id="slide1" class="slide crop-slide active">
-                    <img src="http://ec2-18-221-150-95.us-east-2.compute.amazonaws.com/Photos/Nirca.jpg" alt="main Picture">
+                    <img src="Photos/Nirca.jpg" alt="main Picture">
                     <a href="https://www.google.com/">
                         <button class="slideLink">Read More</button>
                     </a>
                     <div class="slideOverlay"></div>
                 </div>
                 <div id="slide2" class="slide crop-slide">
-                    <img src="http://ec2-18-221-150-95.us-east-2.compute.amazonaws.com/Photos/RootsnBlues.jpg" alt="main Picture">
+                    <img src="Photos/RootsnBlues.jpg" alt="main Picture">
                     <a href="https://www.google.com/">
                         <button class="slideLink">Read More</button>
                     </a>
                     <div class="slideOverlay"></div>
                 </div>
                 <div id="slide3" class="slide crop-slide">
-                    <img src="http://ec2-18-221-150-95.us-east-2.compute.amazonaws.com/Photos/ChicagoMuseum.jpg" alt="main Picture">
+                    <img src="Photos/ChicagoMuseum.jpg" alt="main Picture">
                     <a href="springBreak2018.php">
                         <button class="slideLink">Read More</button>
                     </a>

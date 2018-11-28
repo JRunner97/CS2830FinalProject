@@ -1,13 +1,13 @@
 <?php
 
     if(!session_start()){
-        header("Location: /CS2830Project/error.php");
+        header("Location: error.php");
         exit;
     }
 
 	$currentUser = empty($_SESSION['currentUser']) ? false : $_SESSION['currentUser'];
 	if (!$currentUser) {
-		header("Location: /CS2830Project/loginHandler.php");
+		header("Location: loginHandler.php");
 		exit;
 	}
 ?>
