@@ -72,12 +72,12 @@
                     <p><strong>Email:</strong> jltmh3@mail.missouri.edu</p>
                 </div>
                 <div class="crop-article-picture">
-                    <img src="https://pbs.twimg.com/profile_images/983803209947873281/Mlll9kHm.jpg" alt="article picture">
+                    <img src="https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/18216835_666308516902863_2536487000157506390_o.jpg?_nc_cat=103&_nc_ht=scontent-ort2-2.xx&oh=9396ea4d20d7d1380a8dfde904caf66c&oe=5C836C68" alt="article picture">
                 </div>
             </div>
             <div class="article-content">
-                <h1>Music</h1>
-                <p>I love music. I enjoy going to concerts. I'm really into jazz/hip hop music right now. But the majority of my playlists are alternative and indie music still.</p>
+                <h1>Running</h1>
+                <p>I love running. I first started in middle school. I ran in high school. I'm currently on the running club for mizzou and do alot of races every year.</p>
             </div>
         </div>
         

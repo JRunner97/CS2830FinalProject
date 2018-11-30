@@ -11,6 +11,7 @@
 		exit;
 	}
 ?>
+
 <!DOCTYPE  html>
 <html lang="en">
 
@@ -25,7 +26,6 @@
         
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         
-<!--        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -36,6 +36,7 @@
         <script src="Scripts/myScript.js"></script>
     </head>
 
+    
     <body id="homeBody">
         <nav>
             <div class="navbar">
@@ -67,14 +68,14 @@
             <div class="carousel-container">
                 <div id="slide1" class="slide crop-slide active">
                     <img src="Photos/Nirca.jpg" alt="main Picture">
-                    <a href="https://www.google.com/">
+                    <a href="https://clubrunning.org/">
                         <button class="slideLink">Read More</button>
                     </a>
                     <div class="slideOverlay"></div>
                 </div>
                 <div id="slide2" class="slide crop-slide">
                     <img src="Photos/RootsnBlues.jpg" alt="main Picture">
-                    <a href="https://www.google.com/">
+                    <a href="https://rootsnbluesnbbq.com/">
                         <button class="slideLink">Read More</button>
                     </a>
                     <div class="slideOverlay"></div>
@@ -129,21 +130,18 @@
                 <div id="images-container">
                     <svg id="trianglePic1" viewBox="0 0 100 100" preserveAspectRatio="none">
                         <polygon points="100,0 0,100 100,100"/>
-                      Sorry, your browser does not support inline SVG.
                     </svg>
                     <figure id="additionalInfoPic1" class="crop-author-picture">
                         <img src="https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/22529011_745578912309156_5610521594128163330_o.jpg?_nc_cat=105&_nc_ht=scontent-ort2-2.xx&oh=3116c4d2420ff6b9b7bd4f64d0fe7a00&oe=5C82FA24" alt="personal photo">
                     </figure>
                     <svg id="trianglePic2" viewBox="0 0 100 100" preserveAspectRatio="none">
                         <polygon points="100,0 0,100 100,100"/>
-                      Sorry, your browser does not support inline SVG.
                     </svg>
                     <figure id="additionalInfoPic2" class="crop-author-picture">
                         <img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/29597324_826287404238306_7189822240260414734_n.jpg?_nc_cat=100&_nc_ht=scontent-ort2-2.xx&oh=6bd2c3666d0d2f3d983bd705c0c96cea&oe=5C63D873" alt="personal photo">
                     </figure>
                     <svg id="trianglePic3" viewBox="0 0 100 100" preserveAspectRatio="none">
                         <polygon points="100,0 0,100 100,100"/>
-                      Sorry, your browser does not support inline SVG.
                     </svg>
                     <figure id="additionalInfoPic3" class="crop-author-picture">
                         <img src="https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/18216835_666308516902863_2536487000157506390_o.jpg?_nc_cat=103&_nc_ht=scontent-ort2-2.xx&oh=9396ea4d20d7d1380a8dfde904caf66c&oe=5C836C68" alt="personal photo">
@@ -158,6 +156,9 @@
                 </div>
             </div>
         </div>
+        
+        
+        
 
         <!-- Modal help from https://getbootstrap.com/docs/4.0/components/modal/ -->
         <div class="modal fade" id="overwatchModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -220,7 +221,10 @@
                   </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a href="running.php">
+                    <button type="button" class="btn btn-success">Read More</button>
+                  </a>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
